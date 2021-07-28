@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "idea-stream-client-side-solution",
+    "id": "5c785429-774d-4365-8e69-a531f1244442",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/idea-stream.sppkg"
+  }
+}

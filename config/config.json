@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "idea-stream-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ideaStream/IdeaStreamWebPart.js",
+          "manifest": "./src/webparts/ideaStream/IdeaStreamWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "IdeaStreamWebPartStrings": "lib/webparts/ideaStream/loc/{locale}.js"
+  }
+}

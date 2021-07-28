@@ -1,0 +1,101 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.IdeaStream {
+  .sortBar {
+    max-width:100%;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #eee;
+    margin: 0 auto;
+    margin-bottom:20px;
+    
+  :global{
+    .activeSort{
+      border-bottom: solid 1px;
+      padding-bottom:8px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    padding:0px 0px 0px 0px;
+    margin: 0px;
+  }
+  li {
+    display: inline;
+    list-style-type: none;
+    margin-right:16px;
+  }
+}
+.contentLeft {
+    float:left;
+  }
+  .item {
+    margin-bottom:32px;
+  }
+
+  .ideaTitle {
+    margin-top:-20px;
+  }
+
+  .info {
+    float:left;
+    margin-left:16px;
+    width:500px;
+    height:140px;
+  }
+
+  .itemImage {
+    width: 160px;
+    height: 106px;
+    float:left;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .dataRow {
+    line-height:16px;
+    vertical-align: middle;
+  }
+
+  .rowText {
+    float:right;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+ }
+
+  .icon {
+    margin-right:5px;
+  }
+
+  .desc {
+    @include ms-font-s;
+  }
+
+  .time {
+    @include ms-font-s;
+    float:left;
+    height: 12px;
+    margin-right:16px;
+  }
+  .tags {
+    @include ms-font-s;
+    float:left;
+    height: 12px;
+    margin-right:16px;
+ }
+  .comments {
+    @include ms-font-s;
+    float:left;
+    height: 12px;
+    margin-right:16px;
+ }
+}
